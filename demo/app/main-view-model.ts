@@ -8,7 +8,8 @@ export class HelloWorldModel extends Observable {
   constructor() {
     super();
 
-    this.sazmandVersion = new SazmandVersion();
-    this.message = this.sazmandVersion.message;
+    // this.sazmandVersion = new SazmandVersion();
+    // this.message = this.sazmandVersion.message;
+    this.message = "Your app version issss: " + this.sazmandVersion.get();
   }
 }
