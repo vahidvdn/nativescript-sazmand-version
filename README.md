@@ -11,12 +11,12 @@ tns plugin add nativescript-sazmand-version
 
 
 ```JS	
-    import { SazmandVersion } from 'nativescript-sazmand-version';
-    private appVersion: SazmandVersion;
+import { SazmandVersion } from 'nativescript-sazmand-version';
+private appVersion: SazmandVersion;
 
-    constructor() {
-	    this.appVersion.get()
-  	}
+constructor() {
+    this.appVersion.get()
+}
     
 ```
 ## License
