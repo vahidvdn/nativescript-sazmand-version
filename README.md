@@ -10,7 +10,7 @@ tns plugin add nativescript-sazmand-version
 ## Usage
 
 
-	
+```JS	
     import { SazmandVersion } from 'nativescript-sazmand-version';
     private appVersion: SazmandVersion;
 
@@ -18,7 +18,7 @@ tns plugin add nativescript-sazmand-version
 	    this.appVersion.get()
   	}
     
-
+```
 ## License
 
 Apache License Version 2.0, March 2018
